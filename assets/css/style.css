@@ -121,7 +121,6 @@ p {
   color: #2690d4;
   text-decoration: none;
 }
-
 @media (min-width: 700px) {
   .content-wrap,
   #section-b ul {
@@ -140,10 +139,11 @@ p {
   }
 
   #section-a .content-text {
-    display: flex;
+    columns: 2;
+    column-gap: 2em;
   }
 
-  #section-a .content-text span {
+  #section-a .content-text p {
     padding-top: 0;
   }
 
